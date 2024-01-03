@@ -1,0 +1,620 @@
+* {
+    box-sizing: border-box;
+    color: #444;
+}
+
+.marginLeft {
+    margin-left: 20px;
+}
+
+.linkButton {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    margin-left: 20px;
+}
+
+.info-text {
+    margin-left: 50px;
+}
+
+.cooking-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.h1.navbar-open {
+    padding-top: 120px;
+}
+
+.h1.navbar-open-detail {
+    padding-top: 120px;
+}
+
+.search-searchButton {
+    margin-left: 10px;
+}
+
+.search-submitButton {
+    height: 2rem;
+    width: 6rem;
+    font-size: 15px;
+    background-color: #555;
+    color: #f7f7f7;
+}
+
+.filter-submit-button {
+    margin-top: 15px;
+}
+
+nav {
+    background-color: #555;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #555;
+    color: #f7f7f7;
+    flex-wrap: wrap;
+}
+
+.navigation {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation p {
+    margin-right: 10px;
+    font-size: large;
+}
+
+.navItems {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+}
+
+.navItems.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.navItem {
+    padding: 10px;
+}
+
+.navItem a {
+    display: block;
+    color: #f7f7f7;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #f7f7f7;
+    margin: 3px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2em;
+    color: #444;
+}
+
+/* Search.css */
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-feature-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.search-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.search-card {
+    display: flex;
+    flex: 0 0 150px;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+    background-color: #717171;
+}
+
+.search-card img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.cardText {
+    font-family: 'Playpen Sans', cursive;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.search-filter-container {
+    display: flex;
+    flex-basis: 25%;
+    padding: 1rem;
+    margin: 0.5rem;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+}
+
+.search-filter-container h2,
+h3 {
+    margin: 2px;
+}
+
+.filter-card {
+    display: inline-block;
+    margin: 5px;
+}
+
+.filter-card img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.button-container {
+    display: inline-block;
+    padding: 0.5rem;
+    padding-top: 0;
+    padding-left: 0;
+    margin: 0.5rem;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.button-container .button-nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.no-result-reminder-search {
+    font-size: x-large;
+}
+
+/* Collection.css */
+
+.collection-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.collection-card {
+    display: flex;
+    flex: 0 0 150px;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+    background-color: #717171;
+}
+
+.collection-card img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.collection-card p {
+    font-family: 'Playpen Sans', cursive;
+    color: white;
+}
+
+.delete-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #8f2424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.delete-button:hover {
+    background-color: #2b4d71;
+}
+
+.no-result-reminder-collection-main {
+    font-size: x-large;
+    margin-left: 4px;
+}
+
+.no-result-reminder-collection-form {
+    font-size: xx-large;
+}
+
+/* Cooking.css */
+
+.cooking-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cooking-header {
+    text-align: center;
+}
+
+.cooking-button {
+    display: flex;
+    gap: 20px;
+}
+
+.button-container button:hover {
+    background-color: #333;
+}
+
+.cooking-pan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cooking-pan-container img {
+    width: 50%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.ingredients-table {
+    display: block;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ingredients-table td {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.ingredients-table img {
+    max-width: 50px;
+    height: auto;
+}
+
+.ingredient-table label {
+    padding-left: 5px;
+}
+
+.ingredient-item input[type="number"] {
+    transition: transform 0.2s ease-in-out;
+}
+
+.ingredient-item input[type="number"]:focus {
+    transform: scale(1.1);
+}
+
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
+
+section h1,
+section img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.ingredient-item {
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingredient-item img {
+    border: 1px solid #ddd;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    transition: transform 0.3s;
+}
+
+.ingredient-item img:hover {
+    transform: scale(1.1);
+}
+
+.ingredient-item input[type="number"] {
+    margin-right: 10px;
+}
+
+/* form.css */
+.form-container {
+    background-color: #fff9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-filter-card {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.form-filter-card input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-filter-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #d4bebf;
+}
+
+.form-filter-card label {
+    padding-left: 5px;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-submit-button {
+    height: 2rem;
+    width: 6rem;
+    font-size: 15px;
+    background-color: #555;
+    color: #f7f7f7;
+}
+
+.section-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-cards-container {
+    margin-top: 20px;
+}
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #8f2424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.add-button:hover {
+    background-color: #2b4d71;
+}
+
+@media (min-width: 768px) {
+
+    /* Collection.css */
+    .collection-card {
+        flex: 0 0 180px;
+        margin: 0.5rem;
+    }
+
+    .collection-card img {
+        height: 180px;
+        width: 180px;
+    }
+
+    /*  Cooking.css */
+    .cooking-container {
+        padding: 20px;
+    }
+
+    .ingredients-table img {
+        max-width: 60px;
+    }
+
+    .cooking-pan-container img {
+        max-width: none;
+    }
+
+    /*  Search.css */
+    .search-card {
+        flex: 0 0 180px;
+        margin: 0.5rem;
+    }
+
+    .search-card img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .search-feature-container {
+        flex-direction: column-reverse;
+    }
+
+    .search-filter-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Nav */
+    .navbar {
+        flex-wrap: nowrap;
+    }
+
+    .navItems {
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navItems {
+        flex-direction: row;
+    }
+
+    .navItems.open {
+        flex-direction: row;
+    }
+
+    /* Search.css */
+    .search-card {
+        flex: 0 0 205px;
+        background-color: #eee;
+    }
+
+    .search-card img {
+        height: 205px;
+        width: 205px;
+    }
+
+    .cardText {
+        color: #333;
+    }
+
+    /* Collection.css */
+    .collection-card {
+        flex: 0 0 205px;
+        background-color: #eee;
+    }
+
+    .collection-card img {
+        height: 205px;
+        width: 205px;
+    }
+
+    .collection-card p {
+        color: #333;
+    }
+
+    /* Cooking.css */
+    .ingredients-table td {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .ingredients-table img {
+        max-width: 100%;
+        height: 200px;
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "pokemon": {
+        "Eevee": {
+            "berry": "Persim Berry",
+            "sleepType": "Snoozing",
+            "mainSkill": "Ingredient Magnet S"
+        },
+        "Espeaon": {
+            "berry": "Mago Berry",
+            "sleepType": "Snoozing",
+            "mainSkill": "Charge Strength M"
+        },
+        "Pikachu": {
+            "berry": "Grepa Berry",
+            "sleepType": "Snoozing",
+            "mainSkill": "Charge Strength S"
+        },
+        "Flaaffy": {
+            "berry": "Grepa Berry",
+            "sleepType": "Snoozing",
+            "mainSkill": "Charge Strength M"
+        },
+        "Squirtle": {
+            "berry": "Oran Berry",
+            "sleepType": "Slumbering",
+            "mainSkill": "Ingredient Magnet S"
+        },
+        "Butterfree": {
+            "berry": "Lum Berry",
+            "sleepType": "Dozing",
+            "mainSkill": "Ingredient Magnet S"
+        },
+        "Chikorita": {
+            "berry": "Durin Berry",
+            "sleepType": "Dozing",
+            "mainSkill": "Charge Strength S"
+        },
+        "Bulbasaur": {
+            "berry": "Durin Berry",
+            "sleepType": "Dozing",
+            "mainSkill": "Ingredient Magnet S"
+        },
+        "Swablu": {
+            "berry": "Pamtre Berry",
+            "sleepType": "Slumbering",
+            "mainSkill": "Charge Energy S"
+        },
+        "Dodrio": {
+            "berry": "Pamtre Berry",
+            "sleepType": "Slumbering",
+            "mainSkill": "Charge Energy S"
+        },
+        "Cubone": {
+            "berry": "Figy Berry",
+            "sleepType": "Slumbering",
+            "mainSkill": "Charge Energy S"
+        },
+        "Spheal": {
+            "berry": "Rawst Berry",
+            "sleepType": "Slumbering",
+            "mainSkill": "Ingredient Magnet S"
+        },
+        "Arbok": {
+            "berry": "Chesto Berry",
+            "sleepType": "Dozing",
+            "mainSkill": "Charge Energy S"
+        },
+        "Ekans": {
+            "berry": "Chesto Berry",
+            "sleepType": "Dozing",
+            "mainSkill": "Charge Energy S"
+        },
+        "Larvitar": {
+            "berry": "Sitrus Berry",
+            "sleepType": "Slumbering",
+            "mainSkill": "Charge Energy S"
+        },
+        "Gengar": {
+            "berry": "Bluk Berry",
+            "sleepType": "Slumbering",
+            "mainSkill": "Charge Strength S"
+        },
+        "Gastly": {
+            "berry": "Bluk Berry",
+            "sleepType": "Dozing",
+            "mainSkill": "Charge Strength S"
+        },
+        "Clefairy": {
+            "berry": "Pecha Berry",
+            "sleepType": "Snoozing",
+            "mainSkill": "Metronome"
+        },
+        "Wigglytuff": {
+            "berry": "Pecha Berry",
+            "sleepType": "Snoozing",
+            "mainSkill": "Energy for Everyone S"
+        },
+        "Magneton": {
+            "berry": "Belue Berry",
+            "sleepType": "Slumbering",
+            "mainSkill": "Cooking Power-Up S"
+        }
+    }
+}
